@@ -1,9 +1,67 @@
+# IP Finder App
+
+A simple IP address finder application built using React. This app retrieves IP address details and displays them on a map.
+
 ![Screenshot 2024-09-25 085548](https://github.com/user-attachments/assets/48e65c4f-6405-49e0-9b2a-5a63d2be8e99)
 
-
-# Getting Started with Create React App
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) and npm must be installed on your machine.
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Shahina-2810/IP-Address-Finder.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd ip-finder
+   ```
+3. Install the required dependencies:
+   ```bash
+   npm install ajv@latest ajv-keywords@latest
+   npm install axios
+   npm install react-map-gl
+   npm install react-icons
+   ```
+
+### Running the Application
+
+1. To run the application locally, use:
+   ```bash
+   npm start
+   ```
+
+2. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Usage
+
+- This application uses an external API to retrieve IP address details.
+- Don't forget to replace `API_KEY` with your actual API key in the relevant component where API requests are made.
+
+Example:
+
+```javascript
+const API_KEY = 'YOUR_API_KEY';
+```
+
+### Features
+
+- Displays IP address information such as location, ISP, and coordinates.
+- Shows the IP address location on a map.
+
+### Technologies Used
+
+- React
+- Axios
+- React Map GL
+- AJV (JSON Schema validation)
+- React Icons
 
 ## Available Scripts
 
